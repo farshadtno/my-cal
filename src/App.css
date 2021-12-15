@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: gold;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  max-width: 200px;
+  max-height: 255px;
+}
+.screen {
+  background-color: black;
+  color: #39ff14;
+  white-space: nowrap;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  height: 30px;
+  width: 180px;
+}
+
+.numDot {
+  display: flex;
+  flex-flow: row wrap;
+  width: 150px;
+}
+.operators {
+  display: flex;
+  flex-flow: column;
+  width: 50px;
+}
+
+.num,
+.oper1 {
+  background-color: cornflowerblue;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  width: 34px;
+  height: 34px;
+}
+.oper1 {
+  background-color: darkblue;
+  color: whitesmoke;
+}
+.oper2 {
+  background-color: darkblue;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  width: 34px;
+  height: 34px;
+}
